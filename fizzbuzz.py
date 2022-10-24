@@ -3,7 +3,7 @@ from decimal import Decimal
 
 
 def isFizzBuzz():
-     for index in range(1, 100):
+     for index in range(1, 101):
          #if type(Decimal(index / 3)) == int:
 
          if float(index / 3) == int(index / 3) and float(index / 5) == int(index / 5):
